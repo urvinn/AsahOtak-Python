@@ -6,7 +6,7 @@ status = f"{data['status']}"
 soal = f"{data['question']}"
 jawaban = f"{data['answer']}"
 if status == "200":
-    os.system("cls||Clear")
+    os.system("cls||clear")
     print(f"""\nPERTANYAAN !\n{soal}\n""")
     print("Silahkan Jawab, Percobaan 1/5")
     jawab1 = input("Jawab : ")
